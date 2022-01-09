@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="JMG,JacsMotionGraphics,Developer,HTML5" />
+    <meta
+      name="description"
+      content="Este es un curso rápido de HTML5 con las principales etiquetas y bases para programar páginas web."
+    />
+    <meta name="author" content="Jacs" />
+    <meta name="copyright" content="Jacs Motion Graphics" />
+    <link rel="icon" href="/html icon.ico" />
+    <title>HTML5 COURSE</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 align="center">HTML5 COURSE</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Nav ítem 02</a></li>
+          <li><a href="#">Nav ítem 03</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <hr />
+
+    <!-- *** TITULOS *** -->
+    <h1>Titulo h1</h1>
+    <h2>Titulo h2</h2>
+    <h3>Titulo h3</h3>
+    <h4>Titulo h4</h4>
+    <h5>Titulo h5</h5>
+    <h6>Titulo h6</h6>
+    <hr />
+
+    <!-- *** ETIQUETAS GENERALES *** -->
+    <h2>ETIQUETAS GENERALES</h2>
+    <hr />
+
+    <b>br: </b>Salto de línea, como dar un Enter (NO se cierra). <br />
+    <b>hr: </b>Línea horizontal (NO se cierra). <br />
+    <b>b: Negrita.</b> <br />
+    <i><b>i: </b>Itálica - cursiva.</i> <br />
+    <b>u: </b><u>Subrayado</u> <br />
+    <b>strike: </b><strike>Tachado</strike>. <br /><br />
+    <b>div: </b>Son contenedores, cajas invisibles de tipo <b>bloque</b> que
+    pueden contener otros elementos. Su real uso se aprecia más en CSS. <br />
+    <b>span: </b>Son contenedores, cajas invisibles de tipo <b>inline</b>. Su
+    real uso se aprecia más en CSS. <br /><br />
+    <b>a: </b><a href="#">Enlace/Link/hipervinculo</a>. <br />
+    El Atributo <b>href</b> es donde ponemos la ruta local o url del enlace.
+    <br />
+    El Atributo <b>target="_BLANK"</b> abre el enlace en una nueva pestaña.
+    <br /><br />
+
+    <b>p: </b>
+    <p>
+      Está dispuesta para los parrafos. Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. Placeat eligendi aperiam magni accusantium quia
+      quibusdam corrupti totam recusandae accusamus iusto! Magni accusamus ipsa
+      molestiae esse laboriosam neque repellendus, molestias quibusdam.
+    </p>
+    <br />
+
+    <b>ol: </b> Ordened List (Listas ordenadas). Items numerados, cada ítem va
+    dentro de la Etiqueta <b>li</b>. <br />
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <br />
+
+    <b>ul: </b> Unordened List (Listas desordenadas). Items NO numerados (con
+    viñeta), cada ítem va dentro de la Etiqueta <b>li</b>. <br />
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+    <br />
+
+    <b>select: </b> Caja de selección de opciones/items. Dentro de
+    <b>select</b> va la etiqueta <b>option</b> cada option es un item (es como
+    un li). <br />
+    <br />
+    <select>
+      <option>Item 1</option>
+      <option>Item 2</option>
+      <option>Item 3</option>
+    </select>
+    <hr />
+
+    <!-- *** ETIQUETAS MULTIMEDIA *** -->
+    <h2>ETIQUETAS DE MULTIMEDIA</h2>
+    <hr />
+
+    <h3>img:</h3>
+    Insertar imagen. (No se cierra)<br />
+    El Atributo <b>src</b> es para la ruta local o url de la imagen. (.jpg,
+    .png, etc...) <br />
+    El Atributo <b>alt</b> es para el texto descriptivo de la imagen en caso de
+    que la imagen no cargue (Por ej: cuando no hay internet). <br />
+    El Atributo <b>title</b> es para el título de la imagen y lo muestra al
+    pasar el cursor sobre la imagen. <br />
+    También se puede estipular el tamaño de la imagen con el Atributo
+    <b>width</b>, sin embargo, todos los atributos referentes al tamaño, color,
+    etc, se maneja a través de CSS. <br /><br /><br />
+
+    <img
+      src="/JMG Diseño fb.png"
+      alt="LOGO Jacs Motion Graphics"
+      title="LOGO Jacs Motion Graphics"
+      width="370px"
+    />
+    <br />
+
+    <img
+      src="https://image.freepik.com/vector-gratis/composicion-caracteres-palabra-graffiti_98292-5475.jpg"
+      alt="Graffitty Street Life (Imagen de Internet)"
+      title="Graffitty Street Life (Imagen de Freepik.com)"
+      width="370px"
+    />
+    <br />
+
+    <h3>video:</h3>
+    Insertar video. <br />
+    El Atributo <b>src</b> es para la ruta local o url del video. (.mp4, .avi,
+    .mov, etc.) <br />
+    El Atributo <b>alt</b> es para el texto descriptivo del video en caso de que
+    no cargue (Por ej: cuando no hay internet). <br />
+    El Atributo <b>title</b> es para el título del video y lo muestra al pasar
+    el cursor sobre la imagen. <br />
+    El Atributo <b>controls</b> es para que el navegador nos preste los
+    controles de reproducción (play/pause, fullscreen, volume, etc. Siempre hay
+    que ponerlo). <br />
+    También se puede estipular el tamaño del video con el Atributo
+    <b>width</b>, sin embargo, todos los atributos referentes al tamaño, color,
+    etc, se maneja a través de CSS. <br /><br /><br />
+
+    <video
+      src="/txt JMG ANIMADO (FONDO BLANCO).mp4"
+      alt="Texto Jacs Motion Graphics animado"
+      title="Texto Jacs Motion Graphics animado"
+      width="370px"
+      controls
+    ></video>
+    <br /><br />
+
+    <h3>audio:</h3>
+    Insertar audio. <br />
+    El Atributo <b>src</b> es para la ruta local o url del audio. (.mp3, .ogg,
+    .wav, .flac, etc.) <br />
+    El Atributo <b>alt</b> es para el texto descriptivo del audio en caso de que
+    no cargue (Por ej: cuando no hay internet). <br />
+    El Atributo <b>title</b> es para el título del audio y lo muestra al pasar
+    el cursor sobre el audio. <br />
+    El Atributo <b>controls</b> es para que el navegador nos preste los
+    controles de reproducción (play/pause, fullscreen, volume, etc. Siempre hay
+    que ponerlo). <br /><br /><br />
+
+    <audio
+      src="/SUPERANDO NIVELES.mp3"
+      alt="Tema Superando Niveles de Agos"
+      title="Tema Superando Niveles de Agos"
+      controls
+    ></audio>
+    <br /><br />
+    <hr />
+
+    <!-- *** ETIQUETAS DE FORMULARIO *** -->
+    <h2>ETIQUETAS DE FORMULARIO</h2>
+    <hr />
+
+    <h3>form:</h3>
+    Etiqueta que indica inicio del formulario. Los formularios son para captar
+    datos, ingresarlos. Para ello se requiere definir el tipo de dato a
+    ingresar, esto se hace a través de la etiqueta <b>input</b>. <br />
+    <h4>input</h4>
+    Va dentro de la etiqueta <b>form</b>. <br />
+    El Atributo <b>type</b> define el tipo de dato a ingresar. <br />
+    El Atributo <b>required</b> hace OBLIGATORIO llenar ese campo, de lo
+    contrario, al darle al botón <b>Enviar/Submit</b>, va a saltar un aviso que
+    ese campo específico es OBLIGATORIO llenarlo. <br />
+    <form>
+      <ul>
+        <li>
+          <h4>&lt;input type="text"&#47;&gt;</h4>
+          <p>
+            El Atributo <b>placeholder</b> es la marca de agua que se muestra
+            dentro de la caja de texto. <br />
+            El Atributo <b>value</b> es un valor/texto que se le da por defecto
+            a la caja de texto, es igual a haberlo escrito. <br />
+          </p>
+          <input
+            type="text"
+            placeholder="Placeholder"
+            value="Texto del Value"
+            required
+          />
+        </li>
+
+        <li>
+          <h4>&lt;input type="password"&#47;&gt;</h4>
+          <input type="password" required />
+        </li>
+
+        <li>
+          <h4>&lt;input type="number"&#47;&gt;</h4>
+          <input type="number " />
+        </li>
+
+        <li>
+          <h4>&lt;input type="email"&#47;&gt;</h4>
+          <input type="email" required />
+        </li>
+
+        <li>
+          <h4>&lt;input type="color"&#47;&gt;</h4>
+          <input type="color" />
+        </li>
+
+        <li>
+          <h4>&lt;input type="date"&#47;&gt;</h4>
+          <input type="date" />
+        </li>
+
+        <li>
+          <h4>&lt;input type="time"&#47;&gt;</h4>
+          <input type="time" />
+        </li>
+
+        <li>
+          <h4>&lt;input type="range" min="1" max="6"&#47;&gt;</h4>
+          <input type="range" min="1" max="6" />
+        </li>
+
+        <li>
+          <h4>
+            &lt;input type="button" value="Texto dentro del Botón"&#47;&gt;
+          </h4>
+          <input type="button" value="Botón Jacs" />
+        </li>
+
+        <li>
+          <h4>&lt;textarea&gt; &lt;textarea&#47;&gt;</h4>
+          <p>
+            Cuadro/Area de texto. Si tiene el Atributo <b>readonly</b> queda
+            solamente lectura, inhabilitado para escribir.
+          </p>
+          <textarea readonly>Jacs Motion Graphics & Developer</textarea>
+        </li>
+
+        <li>
+          <h4>&lt;input type="submit"&#47;&gt;</h4>
+          <p>Envía los datos recogidos en las cajas anteriores.</p>
+          <input type="submit" />
+        </li>
+      </ul>
+    </form>
+    <hr />
+
+    <!-- *** ETIQUETAS DE METADATOS *** -->
+    <h2>ETIQUETAS DE METADATOS</h2>
+    <hr />
+
+    <p>
+      Son datos de indexación en Internet, SEO, Author(es), acentos,
+      compatibilidad de dispositivos y Metadatos en general.
+    </p>
+    <img
+      src="/META TAGS.png"
+      alt="Foto etiquetas META de este proyecto"
+      title="Foto etiquetas META de este proyecto"
+      width="50%"
+    />
+    <hr />
+
+    <!-- *** ESTRUCTURA CUERPO PAGINA WEB *** -->
+    <h2>ESTRUCTURA CUERPO PAGINA WEB</h2>
+    <hr />
+    <img
+      src="/HTML Web Estructure.png"
+      alt="HTML Web Estructure Picture"
+      title="HTML Web Estructure Picture"
+    />
+    <hr />
+
+    <!-- *** TABLAS *** -->
+    <h2>TABLAS</h2>
+    <hr />
+
+    <p>
+      Las tablas no son muy usadas hoy en día, sin embargo, se pueden usar para
+      presentar datos organizadamente y se le da formato con CSS (borde y
+      grosor, color, etc.)
+    </p>
+    <b>table: </b>Inicia tabla. <br />
+    <b>tr: </b>Fila. <br />
+    <b>td: </b>Columna. <br />
+    <h3>Ejemplo:</h3>
+
+    <table>
+      <!-- Fila 1 (Actua como cabecera) -->
+      <tr>
+        <td><b>Nombre</b></td>
+        <td><b>Apellido</b></td>
+        <td><b>Edad</b></td>
+      </tr>
+      <!-- Fila 2 -->
+      <tr>
+        <td>Jacs</td>
+        <td>SKL</td>
+        <td>29</td>
+      </tr>
+      <!-- Fila 3 -->
+      <tr>
+        <td>Mati</td>
+        <td>Castro</td>
+        <td>7</td>
+      </tr>
+    </table>
+
+    <h4><u>'Code image'</u></h4>
+    <img
+      src="/Table Code.png"
+      title="Basic Table code"
+      alt="Basic Table code"
+      width="30%"
+    />
+    <hr />
+
+    <!-- *** ICONO *** -->
+    <h2>ICONO</h2>
+    <hr />
+
+    El ícono que sale al lado del título, en la pestaña del navegador, se
+    escribe así: <br />
+
+    &lt;<b>link rel=</b>"icon" <b>href=</b>"/html icon.ico"&gt; <br />
+    <br />
+    La etiqueta <b>link</b> con el atributo <b>rel="icon"</b> indican que se va
+    a incrustar un ícono en el título, el atributo <b>href</b> es para la
+    dirección local o URL del ícono (Por Ejemplo insertar icono de FontAwasome).
+  </body>
+</html>
